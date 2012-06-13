@@ -1,0 +1,27 @@
+{
+    "name": "js/mysqlnd-bundle",
+    "type": "symfony-bundle",
+    "description": "The JSMysqlndBundle is an extension to the Symfony2 profiling toolbar. It extends the data collection with information gathered from PHP's mysqlnd database driver, giving more insight on the performance.",
+    "keywords": ["database", "mysql", "mysqlnd", "profiler"],
+    "homepage": "https://github.com/johannes/JSMysqlndBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johannes Schlüter",
+            "homepage": "http://schlueters.de"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "https://github.com/johannes/JSMysqlndBundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "ext-mysqli": "*",
+        "symfony/framework-bundle": ">=2.0,<2.2-dev"
+    },
+    "autoload": {
+        "psr-0": { "JS\\MysqlndBundle": "" }
+    },
+    "target-dir" : "JS/MysqlndBundle"
+}
